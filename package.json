@@ -1,0 +1,23 @@
+{
+  "name": "jwt-crypto-sandbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc && node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-forge": "^1.3.2",
+    "jose": "github:mochnatiy/jose#add-support-for-brainpool-curve",
+    "jsonwebtoken": "^9.0.0",
+    "node-forge": "^1.3.1",
+    "node-jose": "github:mochnatiy/node-jose#add-bp-curve-support",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {},
+  "description": ""
+}

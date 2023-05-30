@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "es2022",
+    "module": "ES2022",
+    "moduleResolution": "nodenext"
+  }
+}
